@@ -1,0 +1,1 @@
+it's just a AI Rag Bot which will be later integrated in my portfolio to answer me on the behalf of my website data.

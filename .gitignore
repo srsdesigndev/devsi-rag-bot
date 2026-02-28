@@ -1,0 +1,20 @@
+# Environment
+.env
+
+# ChromaDB vector store (regenerate locally with ingest.py, or commit if deploying to Railway)
+# chroma_db/   ← uncomment this if you don't want to commit vectors to git
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# PDF (your source document, keep it private if needed)
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db

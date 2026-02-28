@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+langchain
+langchain-community
+langchain-anthropic
+chromadb
+sentence-transformers
+pymupdf
+python-multipart
+anthropic
+python-dotenv

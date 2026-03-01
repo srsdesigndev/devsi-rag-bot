@@ -18,3 +18,42 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Python eggs & dist
+*.egg-info/
+dist/
+build/
+*.egg
+
+# pytest / testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# mypy / type checkers
+.mypy_cache/
+.dmypy.json
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# sentence-transformers model cache (can be large)
+*.bin
+*.safetensors
+models/
+
+# Node / TypeScript (for usePortfolioChat.ts)
+node_modules/
+.next/
+*.js.map
+
+# Local env overrides
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
